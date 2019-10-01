@@ -1,0 +1,40 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_WWTo2L2Nu_0.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/WWTo2L2Nu_0/$(Process)_WWTo2L2Nu_0.out
+ error                = ../.status/WWTo2L2Nu_0/$(Process)_WWTo2L2Nu_0.err
+ Log                  = ../.status/WWTo2L2Nu_0/$(Process)_WWTo2L2Nu_0.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_0.root -1 10000 1-64
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_1.root -1 10000 65-128
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_2.root -1 10000 129-192
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_3.root -1 10000 193-256
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_4.root -1 10000 257-320
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_5.root -1 10000 321-384
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_6.root -1 10000 385-448
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_7.root -1 10000 449-512
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_8.root -1 10000 513-576
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_9.root -1 10000 577-640
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_10.root -1 10000 641-704
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WWTo2L2Nu_NNPDF31_TuneCP5_13TeV-powheg-pythia8/crab_job_WWTo2L2Nu/190518_224838/0000/ postWWTo2L2Nu_0_11.root -1 10000 705-776
+Queue

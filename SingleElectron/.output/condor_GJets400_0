@@ -1,0 +1,32 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_GJets400_0.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/GJets400_0/$(Process)_GJets400_0.out
+ error                = ../.status/GJets400_0/$(Process)_GJets400_0.err
+ Log                  = ../.status/GJets400_0/$(Process)_GJets400_0.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_0.root -1 10000 1-63
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_1.root -1 10000 64-126
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_2.root -1 10000 127-189
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_3.root -1 10000 190-252
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_4.root -1 10000 253-315
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_5.root -1 10000 316-378
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_6.root -1 10000 379-441
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT400-600/190517_225748/0000/ postGJets400to600_0_7.root -1 10000 442-510
+Queue

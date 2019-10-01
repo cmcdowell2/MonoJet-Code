@@ -1,0 +1,17 @@
+file path found: /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_HT600-800/190515_202650/0002/MC_WJetsToLNu_HT600-800_2000.root
+name: MC_WJetsToLNu_HT600-800_2000.root
+filenumber: 0
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_HT600-800/190515_202650/0002/MC_WJetsToLNu_HT600-800_2000.root
+
+file path found: /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_HT600-800/190515_202650/0002/.
+name: .
+filenumber: 1
+file path found: /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_HT600-800/190515_202650/0002/..
+name: ..
+filenumber: 2
+1 files added.
+Initializing chain.
+Coming in: 
+nentries:9412
+Running over 9412 events.
+Finished entry 0/9411

@@ -1,0 +1,48 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_QCD700_3.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/QCD700_3/$(Process)_QCD700_3.out
+ error                = ../.status/QCD700_3/$(Process)_QCD700_3.err
+ Log                  = ../.status/QCD700_3/$(Process)_QCD700_3.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_0.root -1 10000 3000-3061
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_1.root -1 10000 3062-3123
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_2.root -1 10000 3124-3185
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_3.root -1 10000 3186-3247
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_4.root -1 10000 3248-3309
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_5.root -1 10000 3310-3371
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_6.root -1 10000 3372-3433
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_7.root -1 10000 3434-3495
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_8.root -1 10000 3496-3557
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_9.root -1 10000 3558-3619
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_10.root -1 10000 3620-3681
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_11.root -1 10000 3682-3743
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_12.root -1 10000 3744-3805
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_13.root -1 10000 3806-3867
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_14.root -1 10000 3868-3929
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT700-1000/190518_225705/0003/ postQCD700to1000_3_15.root -1 10000 3930-3999
+Queue

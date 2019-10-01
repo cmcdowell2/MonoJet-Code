@@ -1,0 +1,48 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Mu_4_2.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/Mu_4_2/$(Process)_Mu_4_2.out
+ error                = ../.status/Mu_4_2/$(Process)_Mu_4_2.err
+ Log                  = ../.status/Mu_4_2/$(Process)_Mu_4_2.log
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_0.root -1 10000 2000-2060
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_1.root -1 10000 2061-2121
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_2.root -1 10000 2122-2182
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_3.root -1 10000 2183-2243
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_4.root -1 10000 2244-2255/2257-2258/2260-2264/2266-2276/2278-2279/2281-2309
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_5.root -1 10000 2310-2370
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_6.root -1 10000 2371-2431
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_7.root -1 10000 2432-2492
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_8.root -1 10000 2493-2518/2528-2562
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_9.root -1 10000 2563-2623
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_10.root -1 10000 2624-2684
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_11.root -1 10000 2685-2745
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_12.root -1 10000 2746-2806
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_13.root -1 10000 2807-2867
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_14.root -1 10000 2868-2928
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_2/190516_203151/0002/ postSingleMu_4_2_15.root -1 10000 2929-2999
+Queue

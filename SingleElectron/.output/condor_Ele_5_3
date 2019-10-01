@@ -1,0 +1,42 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Ele_5_3.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/Ele_5_3/$(Process)_Ele_5_3.out
+ error                = ../.status/Ele_5_3/$(Process)_Ele_5_3.err
+ Log                  = ../.status/Ele_5_3/$(Process)_Ele_5_3.log
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_0.root -1 10000 3001-3001/3003-3006/3008-3008/3011-3015/3017-3018/3021-3022/3024-3026/3028-3028/3030-3054/3056-3073
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_1.root -1 10000 3074-3135
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_2.root -1 10000 3136-3171/3173-3175/3179-3181/3183-3183/3186-3194/3197-3198/3200-3200/3203-3203/3205-3205/3209-3209/3211-3214
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_3.root -1 10000 3215-3215/3217-3219/3221-3223/3226-3226/3229-3230/3232-3244/3246-3249/3253-3253/3255-3257/3259-3261/3263-3266/3268-3270/3273-3276/3278-3280/3282-3284/3286-3287/3293-3294/3296-3298/3301-3304
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_4.root -1 10000 3305-3306/3308-3310/3312-3319/3321-3330/3332-3336/3338-3341/3344-3345/3347-3347/3349-3361/3363-3376
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_5.root -1 10000 3377-3381/3383-3393/3395-3423/3425-3441
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_6.root -1 10000 3442-3461/3463-3466/3468-3469/3472-3473/3476-3476/3479-3480/3482-3482/3485-3485/3488-3488/3490-3494/3496-3496/3498-3501/3503-3507/3509-3510/3512-3522
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_7.root -1 10000 3523-3526/3528-3530/3532-3533/3535-3545/3547-3547/3549-3549/3551-3590
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_8.root -1 10000 3591-3652
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_9.root -1 10000 3653-3714
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_10.root -1 10000 3715-3739/3741-3744/3746-3747/3749-3750/3752-3752/3754-3755/3758-3758/3763-3763/3765-3766/3768-3769/3771-3773/3775-3775/3777-3779/3782-3787/3792-3798
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_11.root -1 10000 3799-3802/3804-3804/3808-3808/3810-3811/3814-3815/3817-3817/3821-3821/3825-3828/3830-3830/3834-3834/3838-3838/3841-3841/3845-3845/3847-3847/3851-3851/3857-3860/3862-3874/3878-3882/3884-3884/3886-3890/3892-3902
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv3/190530_145804/0003/ postSingleEle_5_3_12.root -1 10000 3903-3921/3924-3924/3926-3930/3933-3933/3935-3935/3938-3939/3942-3942/3944-3948/3953-3953/3955-3956/3965-3967/3969-3970/3972-3978/3980-3980/3983-3999
+Queue

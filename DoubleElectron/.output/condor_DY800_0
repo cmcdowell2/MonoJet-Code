@@ -1,0 +1,26 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_DY800_0.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/DY800_0/$(Process)_DY800_0.out
+ error                = ../.status/DY800_0/$(Process)_DY800_0.err
+ Log                  = ../.status/DY800_0/$(Process)_DY800_0.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/DYJetsToLL_M-50_HT-800to1200_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/crab_job_DYJetsToLL_HT800-1200/190516_074821/0000/ postDY800to1200_0_0.root -1 10000 1-63
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/DYJetsToLL_M-50_HT-800to1200_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/crab_job_DYJetsToLL_HT800-1200/190516_074821/0000/ postDY800to1200_0_1.root -1 10000 64-126
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/DYJetsToLL_M-50_HT-800to1200_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/crab_job_DYJetsToLL_HT800-1200/190516_074821/0000/ postDY800to1200_0_2.root -1 10000 127-189
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/DYJetsToLL_M-50_HT-800to1200_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/crab_job_DYJetsToLL_HT800-1200/190516_074821/0000/ postDY800to1200_0_3.root -1 10000 190-252
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/DYJetsToLL_M-50_HT-800to1200_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/crab_job_DYJetsToLL_HT800-1200/190516_074821/0000/ postDY800to1200_0_4.root -1 10000 253-315
+Queue

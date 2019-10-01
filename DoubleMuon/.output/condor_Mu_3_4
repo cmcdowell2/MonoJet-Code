@@ -1,0 +1,26 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Mu_3_4.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/Mu_3_4/$(Process)_Mu_3_4.out
+ error                = ../.status/Mu_3_4/$(Process)_Mu_3_4.err
+ Log                  = ../.status/Mu_3_4/$(Process)_Mu_3_4.log
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0004/ postDoubleMu_3_4_0.root -1 10000 4000-4008/4013-4033/4108-4108/4125-4125/4207-4207/4210-4210/4223-4223/4226-4238/4264-4264/4271-4271/4289-4289/4291-4297/4300-4300/4302-4302/4305-4307/4310-4316
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0004/ postDoubleMu_3_4_1.root -1 10000 4317-4333/4335-4341/4357-4361/4363-4363/4370-4371/4377-4378/4380-4380/4398-4399/4401-4402/4405-4409/4419-4419/4423-4426/4428-4448
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0004/ postDoubleMu_3_4_2.root -1 10000 4449-4466/4501-4501/4503-4503/4514-4514/4517-4517/4519-4519/4523-4524/4529-4532/4539-4539/4543-4543/4550-4569/4573-4573/4600-4600/4602-4608/4611-4617/4619-4621
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0004/ postDoubleMu_3_4_3.root -1 10000 4622-4627/4632-4636/4638-4685/4688-4688/4725-4725/4730-4730/4735-4735/4737-4737/4740-4741/4743-4746
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0004/ postDoubleMu_3_4_4.root -1 10000 4747-4759/4765-4771/4796-4796/4798-4806/4813-4813/4815-4816/4821-4821/4827-4829/4831-4833/4838-4850/4866-4867/4869-4869/4894-4894/4899-4899/4901-4901/4903-4909/4940-4940/4945-4945/4961-4961/4977-4977/4979-4979
+Queue

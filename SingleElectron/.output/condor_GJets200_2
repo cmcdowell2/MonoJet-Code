@@ -1,0 +1,20 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_GJets200_2.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/GJets200_2/$(Process)_GJets200_2.out
+ error                = ../.status/GJets200_2/$(Process)_GJets200_2.err
+ Log                  = ../.status/GJets200_2/$(Process)_GJets200_2.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT200-400/190517_225706/0002/ postGJets200to400_2_0.root -1 10000 2000-2047
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/GJets_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_GJets_HT200-400/190517_225706/0002/ postGJets200to400_2_1.root -1 10000 2048-2096
+Queue

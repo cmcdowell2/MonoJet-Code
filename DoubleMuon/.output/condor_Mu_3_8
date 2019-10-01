@@ -1,0 +1,24 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Mu_3_8.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/Mu_3_8/$(Process)_Mu_3_8.out
+ error                = ../.status/Mu_3_8/$(Process)_Mu_3_8.err
+ Log                  = ../.status/Mu_3_8/$(Process)_Mu_3_8.log
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0008/ postDoubleMu_3_8_0.root -1 10000 8031-8031/8033-8033/8036-8037/8039-8039/8044-8047/8052-8056/8058-8058/8060-8060/8062-8099/8117-8119/8121-8127
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0008/ postDoubleMu_3_8_1.root -1 10000 8128-8129/8131-8136/8140-8140/8142-8149/8152-8157/8159-8160/8162-8164/8166-8185/8187-8202
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0008/ postDoubleMu_3_8_2.root -1 10000 8203-8228/8230-8231/8237-8237/8249-8256/8258-8261/8263-8264/8273-8293
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2/190512_164040/0008/ postDoubleMu_3_8_3.root -1 10000 8294-8357
+Queue

@@ -1,0 +1,48 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_WJets_MLM_4.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/WJets_MLM_4/$(Process)_WJets_MLM_4.out
+ error                = ../.status/WJets_MLM_4/$(Process)_WJets_MLM_4.err
+ Log                  = ../.status/WJets_MLM_4/$(Process)_WJets_MLM_4.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_0.root -1 10000 4000-4061
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_1.root -1 10000 4062-4123
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_2.root -1 10000 4124-4185
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_3.root -1 10000 4186-4247
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_4.root -1 10000 4248-4309
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_5.root -1 10000 4310-4371
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_6.root -1 10000 4372-4433
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_7.root -1 10000 4434-4495
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_8.root -1 10000 4496-4557
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_9.root -1 10000 4558-4619
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_10.root -1 10000 4620-4681
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_11.root -1 10000 4682-4743
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_12.root -1 10000 4744-4805
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_13.root -1 10000 4806-4867
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_14.root -1 10000 4868-4929
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_WJetsToLNu_Incl/190520_092934/0004/ postWJets_MLM_4_15.root -1 10000 4930-4999
+Queue

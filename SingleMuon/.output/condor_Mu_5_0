@@ -1,0 +1,24 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Mu_5_0.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/Mu_5_0/$(Process)_Mu_5_0.out
+ error                = ../.status/Mu_5_0/$(Process)_Mu_5_0.err
+ Log                  = ../.status/Mu_5_0/$(Process)_Mu_5_0.log
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_3/190519_232032/0000/ postSingleMu_5_0_0.root -1 10000 1-69
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_3/190519_232032/0000/ postSingleMu_5_0_1.root -1 10000 70-138
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_3/190519_232032/0000/ postSingleMu_5_0_2.root -1 10000 139-207
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018D_Prompt/MET/crab_job_MET2018Dv2_3/190519_232032/0000/ postSingleMu_5_0_3.root -1 10000 208-279
+Queue

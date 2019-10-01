@@ -1,0 +1,48 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_QCD100_8.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/QCD100_8/$(Process)_QCD100_8.out
+ error                = ../.status/QCD100_8/$(Process)_QCD100_8.err
+ Log                  = ../.status/QCD100_8/$(Process)_QCD100_8.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_0.root -1 10000 8000-8061
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_1.root -1 10000 8062-8123
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_2.root -1 10000 8124-8185
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_3.root -1 10000 8186-8247
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_4.root -1 10000 8248-8309
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_5.root -1 10000 8310-8371
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_6.root -1 10000 8372-8433
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_7.root -1 10000 8434-8495
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_8.root -1 10000 8496-8557
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_9.root -1 10000 8558-8619
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_10.root -1 10000 8620-8681
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_11.root -1 10000 8682-8743
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_12.root -1 10000 8744-8805
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_13.root -1 10000 8806-8867
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_14.root -1 10000 8868-8929
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT100-200/190518_225355/0008/ postQCD100to200_8_15.root -1 10000 8930-8999
+Queue

@@ -1,0 +1,1422 @@
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_1.root
+name: MC_QCD_HT1000-1500_1.root
+filenumber: 0
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_10.root
+name: MC_QCD_HT1000-1500_10.root
+filenumber: 1
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_100.root
+name: MC_QCD_HT1000-1500_100.root
+filenumber: 2
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_100.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_101.root
+name: MC_QCD_HT1000-1500_101.root
+filenumber: 3
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_101.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_102.root
+name: MC_QCD_HT1000-1500_102.root
+filenumber: 4
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_102.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_103.root
+name: MC_QCD_HT1000-1500_103.root
+filenumber: 5
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_103.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_104.root
+name: MC_QCD_HT1000-1500_104.root
+filenumber: 6
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_104.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_105.root
+name: MC_QCD_HT1000-1500_105.root
+filenumber: 7
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_105.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_106.root
+name: MC_QCD_HT1000-1500_106.root
+filenumber: 8
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_106.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_107.root
+name: MC_QCD_HT1000-1500_107.root
+filenumber: 9
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_107.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_108.root
+name: MC_QCD_HT1000-1500_108.root
+filenumber: 10
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_108.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_109.root
+name: MC_QCD_HT1000-1500_109.root
+filenumber: 11
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_109.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_11.root
+name: MC_QCD_HT1000-1500_11.root
+filenumber: 12
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_110.root
+name: MC_QCD_HT1000-1500_110.root
+filenumber: 13
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_110.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_111.root
+name: MC_QCD_HT1000-1500_111.root
+filenumber: 14
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_111.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_112.root
+name: MC_QCD_HT1000-1500_112.root
+filenumber: 15
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_112.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_113.root
+name: MC_QCD_HT1000-1500_113.root
+filenumber: 16
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_113.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_114.root
+name: MC_QCD_HT1000-1500_114.root
+filenumber: 17
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_114.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_115.root
+name: MC_QCD_HT1000-1500_115.root
+filenumber: 18
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_115.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_116.root
+name: MC_QCD_HT1000-1500_116.root
+filenumber: 19
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_116.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_117.root
+name: MC_QCD_HT1000-1500_117.root
+filenumber: 20
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_117.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_118.root
+name: MC_QCD_HT1000-1500_118.root
+filenumber: 21
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_118.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_119.root
+name: MC_QCD_HT1000-1500_119.root
+filenumber: 22
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_119.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_12.root
+name: MC_QCD_HT1000-1500_12.root
+filenumber: 23
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_120.root
+name: MC_QCD_HT1000-1500_120.root
+filenumber: 24
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_120.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_121.root
+name: MC_QCD_HT1000-1500_121.root
+filenumber: 25
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_121.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_122.root
+name: MC_QCD_HT1000-1500_122.root
+filenumber: 26
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_122.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_123.root
+name: MC_QCD_HT1000-1500_123.root
+filenumber: 27
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_123.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_124.root
+name: MC_QCD_HT1000-1500_124.root
+filenumber: 28
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_124.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_125.root
+name: MC_QCD_HT1000-1500_125.root
+filenumber: 29
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_125.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_126.root
+name: MC_QCD_HT1000-1500_126.root
+filenumber: 30
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_126.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_127.root
+name: MC_QCD_HT1000-1500_127.root
+filenumber: 31
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_127.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_128.root
+name: MC_QCD_HT1000-1500_128.root
+filenumber: 32
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_128.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_129.root
+name: MC_QCD_HT1000-1500_129.root
+filenumber: 33
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_129.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_13.root
+name: MC_QCD_HT1000-1500_13.root
+filenumber: 34
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_130.root
+name: MC_QCD_HT1000-1500_130.root
+filenumber: 35
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_130.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_131.root
+name: MC_QCD_HT1000-1500_131.root
+filenumber: 36
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_131.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_132.root
+name: MC_QCD_HT1000-1500_132.root
+filenumber: 37
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_132.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_133.root
+name: MC_QCD_HT1000-1500_133.root
+filenumber: 38
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_133.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_134.root
+name: MC_QCD_HT1000-1500_134.root
+filenumber: 39
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_134.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_135.root
+name: MC_QCD_HT1000-1500_135.root
+filenumber: 40
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_135.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_136.root
+name: MC_QCD_HT1000-1500_136.root
+filenumber: 41
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_136.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_137.root
+name: MC_QCD_HT1000-1500_137.root
+filenumber: 42
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_137.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_138.root
+name: MC_QCD_HT1000-1500_138.root
+filenumber: 43
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_138.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_139.root
+name: MC_QCD_HT1000-1500_139.root
+filenumber: 44
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_139.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_14.root
+name: MC_QCD_HT1000-1500_14.root
+filenumber: 45
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_140.root
+name: MC_QCD_HT1000-1500_140.root
+filenumber: 46
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_140.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_141.root
+name: MC_QCD_HT1000-1500_141.root
+filenumber: 47
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_141.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_142.root
+name: MC_QCD_HT1000-1500_142.root
+filenumber: 48
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_142.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_143.root
+name: MC_QCD_HT1000-1500_143.root
+filenumber: 49
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_143.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_144.root
+name: MC_QCD_HT1000-1500_144.root
+filenumber: 50
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_144.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_145.root
+name: MC_QCD_HT1000-1500_145.root
+filenumber: 51
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_145.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_146.root
+name: MC_QCD_HT1000-1500_146.root
+filenumber: 52
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_146.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_147.root
+name: MC_QCD_HT1000-1500_147.root
+filenumber: 53
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_147.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_148.root
+name: MC_QCD_HT1000-1500_148.root
+filenumber: 54
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_148.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_149.root
+name: MC_QCD_HT1000-1500_149.root
+filenumber: 55
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_149.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_15.root
+name: MC_QCD_HT1000-1500_15.root
+filenumber: 56
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_150.root
+name: MC_QCD_HT1000-1500_150.root
+filenumber: 57
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_150.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_151.root
+name: MC_QCD_HT1000-1500_151.root
+filenumber: 58
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_151.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_152.root
+name: MC_QCD_HT1000-1500_152.root
+filenumber: 59
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_152.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_153.root
+name: MC_QCD_HT1000-1500_153.root
+filenumber: 60
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_153.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_154.root
+name: MC_QCD_HT1000-1500_154.root
+filenumber: 61
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_154.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_155.root
+name: MC_QCD_HT1000-1500_155.root
+filenumber: 62
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_155.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_156.root
+name: MC_QCD_HT1000-1500_156.root
+filenumber: 63
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_156.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_157.root
+name: MC_QCD_HT1000-1500_157.root
+filenumber: 64
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_157.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_158.root
+name: MC_QCD_HT1000-1500_158.root
+filenumber: 65
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_158.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_159.root
+name: MC_QCD_HT1000-1500_159.root
+filenumber: 66
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_159.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_16.root
+name: MC_QCD_HT1000-1500_16.root
+filenumber: 67
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_160.root
+name: MC_QCD_HT1000-1500_160.root
+filenumber: 68
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_160.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_17.root
+name: MC_QCD_HT1000-1500_17.root
+filenumber: 69
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_18.root
+name: MC_QCD_HT1000-1500_18.root
+filenumber: 70
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_19.root
+name: MC_QCD_HT1000-1500_19.root
+filenumber: 71
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_2.root
+name: MC_QCD_HT1000-1500_2.root
+filenumber: 72
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_20.root
+name: MC_QCD_HT1000-1500_20.root
+filenumber: 73
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_21.root
+name: MC_QCD_HT1000-1500_21.root
+filenumber: 74
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_22.root
+name: MC_QCD_HT1000-1500_22.root
+filenumber: 75
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_23.root
+name: MC_QCD_HT1000-1500_23.root
+filenumber: 76
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_24.root
+name: MC_QCD_HT1000-1500_24.root
+filenumber: 77
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_25.root
+name: MC_QCD_HT1000-1500_25.root
+filenumber: 78
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_26.root
+name: MC_QCD_HT1000-1500_26.root
+filenumber: 79
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_27.root
+name: MC_QCD_HT1000-1500_27.root
+filenumber: 80
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_28.root
+name: MC_QCD_HT1000-1500_28.root
+filenumber: 81
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_29.root
+name: MC_QCD_HT1000-1500_29.root
+filenumber: 82
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_3.root
+name: MC_QCD_HT1000-1500_3.root
+filenumber: 83
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_30.root
+name: MC_QCD_HT1000-1500_30.root
+filenumber: 84
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_31.root
+name: MC_QCD_HT1000-1500_31.root
+filenumber: 85
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_32.root
+name: MC_QCD_HT1000-1500_32.root
+filenumber: 86
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_33.root
+name: MC_QCD_HT1000-1500_33.root
+filenumber: 87
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_34.root
+name: MC_QCD_HT1000-1500_34.root
+filenumber: 88
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_35.root
+name: MC_QCD_HT1000-1500_35.root
+filenumber: 89
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_36.root
+name: MC_QCD_HT1000-1500_36.root
+filenumber: 90
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_37.root
+name: MC_QCD_HT1000-1500_37.root
+filenumber: 91
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_38.root
+name: MC_QCD_HT1000-1500_38.root
+filenumber: 92
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_39.root
+name: MC_QCD_HT1000-1500_39.root
+filenumber: 93
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_4.root
+name: MC_QCD_HT1000-1500_4.root
+filenumber: 94
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_40.root
+name: MC_QCD_HT1000-1500_40.root
+filenumber: 95
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_41.root
+name: MC_QCD_HT1000-1500_41.root
+filenumber: 96
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_42.root
+name: MC_QCD_HT1000-1500_42.root
+filenumber: 97
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_43.root
+name: MC_QCD_HT1000-1500_43.root
+filenumber: 98
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_44.root
+name: MC_QCD_HT1000-1500_44.root
+filenumber: 99
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_45.root
+name: MC_QCD_HT1000-1500_45.root
+filenumber: 100
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_46.root
+name: MC_QCD_HT1000-1500_46.root
+filenumber: 101
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_47.root
+name: MC_QCD_HT1000-1500_47.root
+filenumber: 102
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_48.root
+name: MC_QCD_HT1000-1500_48.root
+filenumber: 103
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_49.root
+name: MC_QCD_HT1000-1500_49.root
+filenumber: 104
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_5.root
+name: MC_QCD_HT1000-1500_5.root
+filenumber: 105
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_50.root
+name: MC_QCD_HT1000-1500_50.root
+filenumber: 106
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_51.root
+name: MC_QCD_HT1000-1500_51.root
+filenumber: 107
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_52.root
+name: MC_QCD_HT1000-1500_52.root
+filenumber: 108
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_53.root
+name: MC_QCD_HT1000-1500_53.root
+filenumber: 109
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_54.root
+name: MC_QCD_HT1000-1500_54.root
+filenumber: 110
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_55.root
+name: MC_QCD_HT1000-1500_55.root
+filenumber: 111
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_56.root
+name: MC_QCD_HT1000-1500_56.root
+filenumber: 112
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_57.root
+name: MC_QCD_HT1000-1500_57.root
+filenumber: 113
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_58.root
+name: MC_QCD_HT1000-1500_58.root
+filenumber: 114
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_59.root
+name: MC_QCD_HT1000-1500_59.root
+filenumber: 115
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_6.root
+name: MC_QCD_HT1000-1500_6.root
+filenumber: 116
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_60.root
+name: MC_QCD_HT1000-1500_60.root
+filenumber: 117
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_61.root
+name: MC_QCD_HT1000-1500_61.root
+filenumber: 118
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_62.root
+name: MC_QCD_HT1000-1500_62.root
+filenumber: 119
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_63.root
+name: MC_QCD_HT1000-1500_63.root
+filenumber: 120
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_64.root
+name: MC_QCD_HT1000-1500_64.root
+filenumber: 121
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_65.root
+name: MC_QCD_HT1000-1500_65.root
+filenumber: 122
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_66.root
+name: MC_QCD_HT1000-1500_66.root
+filenumber: 123
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_67.root
+name: MC_QCD_HT1000-1500_67.root
+filenumber: 124
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_68.root
+name: MC_QCD_HT1000-1500_68.root
+filenumber: 125
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_69.root
+name: MC_QCD_HT1000-1500_69.root
+filenumber: 126
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_7.root
+name: MC_QCD_HT1000-1500_7.root
+filenumber: 127
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_70.root
+name: MC_QCD_HT1000-1500_70.root
+filenumber: 128
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_71.root
+name: MC_QCD_HT1000-1500_71.root
+filenumber: 129
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_72.root
+name: MC_QCD_HT1000-1500_72.root
+filenumber: 130
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_73.root
+name: MC_QCD_HT1000-1500_73.root
+filenumber: 131
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_74.root
+name: MC_QCD_HT1000-1500_74.root
+filenumber: 132
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_75.root
+name: MC_QCD_HT1000-1500_75.root
+filenumber: 133
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_76.root
+name: MC_QCD_HT1000-1500_76.root
+filenumber: 134
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_77.root
+name: MC_QCD_HT1000-1500_77.root
+filenumber: 135
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_78.root
+name: MC_QCD_HT1000-1500_78.root
+filenumber: 136
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_79.root
+name: MC_QCD_HT1000-1500_79.root
+filenumber: 137
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_8.root
+name: MC_QCD_HT1000-1500_8.root
+filenumber: 138
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_80.root
+name: MC_QCD_HT1000-1500_80.root
+filenumber: 139
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_81.root
+name: MC_QCD_HT1000-1500_81.root
+filenumber: 140
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_81.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_82.root
+name: MC_QCD_HT1000-1500_82.root
+filenumber: 141
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_82.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_83.root
+name: MC_QCD_HT1000-1500_83.root
+filenumber: 142
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_83.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_84.root
+name: MC_QCD_HT1000-1500_84.root
+filenumber: 143
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_84.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_85.root
+name: MC_QCD_HT1000-1500_85.root
+filenumber: 144
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_85.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_86.root
+name: MC_QCD_HT1000-1500_86.root
+filenumber: 145
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_86.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_87.root
+name: MC_QCD_HT1000-1500_87.root
+filenumber: 146
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_87.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_88.root
+name: MC_QCD_HT1000-1500_88.root
+filenumber: 147
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_88.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_89.root
+name: MC_QCD_HT1000-1500_89.root
+filenumber: 148
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_89.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_9.root
+name: MC_QCD_HT1000-1500_9.root
+filenumber: 149
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_90.root
+name: MC_QCD_HT1000-1500_90.root
+filenumber: 150
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_90.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_91.root
+name: MC_QCD_HT1000-1500_91.root
+filenumber: 151
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_91.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_92.root
+name: MC_QCD_HT1000-1500_92.root
+filenumber: 152
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_92.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_93.root
+name: MC_QCD_HT1000-1500_93.root
+filenumber: 153
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_93.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_94.root
+name: MC_QCD_HT1000-1500_94.root
+filenumber: 154
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_94.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_95.root
+name: MC_QCD_HT1000-1500_95.root
+filenumber: 155
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_95.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_96.root
+name: MC_QCD_HT1000-1500_96.root
+filenumber: 156
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_96.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_97.root
+name: MC_QCD_HT1000-1500_97.root
+filenumber: 157
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_97.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_98.root
+name: MC_QCD_HT1000-1500_98.root
+filenumber: 158
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_98.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_99.root
+name: MC_QCD_HT1000-1500_99.root
+filenumber: 159
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/MC_QCD_HT1000-1500_99.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/.
+name: .
+filenumber: 160
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/QCD/QCD_HT1000-1500/..
+name: ..
+filenumber: 161
+80 files added.
+Initializing chain.
+Coming in: 
+nentries:7702060
+Running over 7702060 events.
+Finished entry 0/7702059
+Finished entry 10000/7702059
+Finished entry 20000/7702059
+Finished entry 30000/7702059
+Finished entry 40000/7702059
+Finished entry 50000/7702059
+Finished entry 60000/7702059
+Finished entry 70000/7702059
+Finished entry 80000/7702059
+Finished entry 90000/7702059
+Finished entry 100000/7702059
+Finished entry 110000/7702059
+Finished entry 120000/7702059
+Finished entry 130000/7702059
+Finished entry 140000/7702059
+Finished entry 150000/7702059
+Finished entry 160000/7702059
+Finished entry 170000/7702059
+Finished entry 180000/7702059
+Finished entry 190000/7702059
+Finished entry 200000/7702059
+Finished entry 210000/7702059
+Finished entry 220000/7702059
+Finished entry 230000/7702059
+Finished entry 240000/7702059
+Finished entry 250000/7702059
+Finished entry 260000/7702059
+Finished entry 270000/7702059
+Finished entry 280000/7702059
+Finished entry 290000/7702059
+Finished entry 300000/7702059
+Finished entry 310000/7702059
+Finished entry 320000/7702059
+Finished entry 330000/7702059
+Finished entry 340000/7702059
+Finished entry 350000/7702059
+Finished entry 360000/7702059
+Finished entry 370000/7702059
+Finished entry 380000/7702059
+Finished entry 390000/7702059
+Finished entry 400000/7702059
+Finished entry 410000/7702059
+Finished entry 420000/7702059
+Finished entry 430000/7702059
+Finished entry 440000/7702059
+Finished entry 450000/7702059
+Finished entry 460000/7702059
+Finished entry 470000/7702059
+Finished entry 480000/7702059
+Finished entry 490000/7702059
+Finished entry 500000/7702059
+Finished entry 510000/7702059
+Finished entry 520000/7702059
+Finished entry 530000/7702059
+Finished entry 540000/7702059
+Finished entry 550000/7702059
+Finished entry 560000/7702059
+Finished entry 570000/7702059
+Finished entry 580000/7702059
+Finished entry 590000/7702059
+Finished entry 600000/7702059
+Finished entry 610000/7702059
+Finished entry 620000/7702059
+Finished entry 630000/7702059
+Finished entry 640000/7702059
+Finished entry 650000/7702059
+Finished entry 660000/7702059
+Finished entry 670000/7702059
+Finished entry 680000/7702059
+Finished entry 690000/7702059
+Finished entry 700000/7702059
+Finished entry 710000/7702059
+Finished entry 720000/7702059
+Finished entry 730000/7702059
+Finished entry 740000/7702059
+Finished entry 750000/7702059
+Finished entry 760000/7702059
+Finished entry 770000/7702059
+Finished entry 780000/7702059
+Finished entry 790000/7702059
+Finished entry 800000/7702059
+Finished entry 810000/7702059
+Finished entry 820000/7702059
+Finished entry 830000/7702059
+Finished entry 840000/7702059
+Finished entry 850000/7702059
+Finished entry 860000/7702059
+Finished entry 870000/7702059
+Finished entry 880000/7702059
+Finished entry 890000/7702059
+Finished entry 900000/7702059
+Finished entry 910000/7702059
+Finished entry 920000/7702059
+Finished entry 930000/7702059
+Finished entry 940000/7702059
+Finished entry 950000/7702059
+Finished entry 960000/7702059
+Finished entry 970000/7702059
+Finished entry 980000/7702059
+Finished entry 990000/7702059
+Finished entry 1000000/7702059
+Finished entry 1010000/7702059
+Finished entry 1020000/7702059
+Finished entry 1030000/7702059
+Finished entry 1040000/7702059
+Finished entry 1050000/7702059
+Finished entry 1060000/7702059
+Finished entry 1070000/7702059
+Finished entry 1080000/7702059
+Finished entry 1090000/7702059
+Finished entry 1100000/7702059
+Finished entry 1110000/7702059
+Finished entry 1120000/7702059
+Finished entry 1130000/7702059
+Finished entry 1140000/7702059
+Finished entry 1150000/7702059
+Finished entry 1160000/7702059
+Finished entry 1170000/7702059
+Finished entry 1180000/7702059
+Finished entry 1190000/7702059
+Finished entry 1200000/7702059
+Finished entry 1210000/7702059
+Finished entry 1220000/7702059
+Finished entry 1230000/7702059
+Finished entry 1240000/7702059
+Finished entry 1250000/7702059
+Finished entry 1260000/7702059
+Finished entry 1270000/7702059
+Finished entry 1280000/7702059
+Finished entry 1290000/7702059
+Finished entry 1300000/7702059
+Finished entry 1310000/7702059
+Finished entry 1320000/7702059
+Finished entry 1330000/7702059
+Finished entry 1340000/7702059
+Finished entry 1350000/7702059
+Finished entry 1360000/7702059
+Finished entry 1370000/7702059
+Finished entry 1380000/7702059
+Finished entry 1390000/7702059
+Finished entry 1400000/7702059
+Finished entry 1410000/7702059
+Finished entry 1420000/7702059
+Finished entry 1430000/7702059
+Finished entry 1440000/7702059
+Finished entry 1450000/7702059
+Finished entry 1460000/7702059
+Finished entry 1470000/7702059
+Finished entry 1480000/7702059
+Finished entry 1490000/7702059
+Finished entry 1500000/7702059
+Finished entry 1510000/7702059
+Finished entry 1520000/7702059
+Finished entry 1530000/7702059
+Finished entry 1540000/7702059
+Finished entry 1550000/7702059
+Finished entry 1560000/7702059
+Finished entry 1570000/7702059
+Finished entry 1580000/7702059
+Finished entry 1590000/7702059
+Finished entry 1600000/7702059
+Finished entry 1610000/7702059
+Finished entry 1620000/7702059
+Finished entry 1630000/7702059
+Finished entry 1640000/7702059
+Finished entry 1650000/7702059
+Finished entry 1660000/7702059
+Finished entry 1670000/7702059
+Finished entry 1680000/7702059
+Finished entry 1690000/7702059
+Finished entry 1700000/7702059
+Finished entry 1710000/7702059
+Finished entry 1720000/7702059
+Finished entry 1730000/7702059
+Finished entry 1740000/7702059
+Finished entry 1750000/7702059
+Finished entry 1760000/7702059
+Finished entry 1770000/7702059
+Finished entry 1780000/7702059
+Finished entry 1790000/7702059
+Finished entry 1800000/7702059
+Finished entry 1810000/7702059
+Finished entry 1820000/7702059
+Finished entry 1830000/7702059
+Finished entry 1840000/7702059
+Finished entry 1850000/7702059
+Finished entry 1860000/7702059
+Finished entry 1870000/7702059
+Finished entry 1880000/7702059
+Finished entry 1890000/7702059
+Finished entry 1900000/7702059
+Finished entry 1910000/7702059
+Finished entry 1920000/7702059
+Finished entry 1930000/7702059
+Finished entry 1940000/7702059
+Finished entry 1950000/7702059
+Finished entry 1960000/7702059
+Finished entry 1970000/7702059
+Finished entry 1980000/7702059
+Finished entry 1990000/7702059
+Finished entry 2000000/7702059
+Finished entry 2010000/7702059
+Finished entry 2020000/7702059
+Finished entry 2030000/7702059
+Finished entry 2040000/7702059
+Finished entry 2050000/7702059
+Finished entry 2060000/7702059
+Finished entry 2070000/7702059
+Finished entry 2080000/7702059
+Finished entry 2090000/7702059
+Finished entry 2100000/7702059
+Finished entry 2110000/7702059
+Finished entry 2120000/7702059
+Finished entry 2130000/7702059
+Finished entry 2140000/7702059
+Finished entry 2150000/7702059
+Finished entry 2160000/7702059
+Finished entry 2170000/7702059
+Finished entry 2180000/7702059
+Finished entry 2190000/7702059
+Finished entry 2200000/7702059
+Finished entry 2210000/7702059
+Finished entry 2220000/7702059
+Finished entry 2230000/7702059
+Finished entry 2240000/7702059
+Finished entry 2250000/7702059
+Finished entry 2260000/7702059
+Finished entry 2270000/7702059
+Finished entry 2280000/7702059
+Finished entry 2290000/7702059
+Finished entry 2300000/7702059
+Finished entry 2310000/7702059
+Finished entry 2320000/7702059
+Finished entry 2330000/7702059
+Finished entry 2340000/7702059
+Finished entry 2350000/7702059
+Finished entry 2360000/7702059
+Finished entry 2370000/7702059
+Finished entry 2380000/7702059
+Finished entry 2390000/7702059
+Finished entry 2400000/7702059
+Finished entry 2410000/7702059
+Finished entry 2420000/7702059
+Finished entry 2430000/7702059
+Finished entry 2440000/7702059
+Finished entry 2450000/7702059
+Finished entry 2460000/7702059
+Finished entry 2470000/7702059
+Finished entry 2480000/7702059
+Finished entry 2490000/7702059
+Finished entry 2500000/7702059
+Finished entry 2510000/7702059
+Finished entry 2520000/7702059
+Finished entry 2530000/7702059
+Finished entry 2540000/7702059
+Finished entry 2550000/7702059
+Finished entry 2560000/7702059
+Finished entry 2570000/7702059
+Finished entry 2580000/7702059
+Finished entry 2590000/7702059
+Finished entry 2600000/7702059
+Finished entry 2610000/7702059
+Finished entry 2620000/7702059
+Finished entry 2630000/7702059
+Finished entry 2640000/7702059
+Finished entry 2650000/7702059
+Finished entry 2660000/7702059
+Finished entry 2670000/7702059
+Finished entry 2680000/7702059
+Finished entry 2690000/7702059
+Finished entry 2700000/7702059
+Finished entry 2710000/7702059
+Finished entry 2720000/7702059
+Finished entry 2730000/7702059
+Finished entry 2740000/7702059
+Finished entry 2750000/7702059
+Finished entry 2760000/7702059
+Finished entry 2770000/7702059
+Finished entry 2780000/7702059
+Finished entry 2790000/7702059
+Finished entry 2800000/7702059
+Finished entry 2810000/7702059
+Finished entry 2820000/7702059
+Finished entry 2830000/7702059
+Finished entry 2840000/7702059
+Finished entry 2850000/7702059
+Finished entry 2860000/7702059
+Finished entry 2870000/7702059
+Finished entry 2880000/7702059
+Finished entry 2890000/7702059
+Finished entry 2900000/7702059
+Finished entry 2910000/7702059
+Finished entry 2920000/7702059
+Finished entry 2930000/7702059
+Finished entry 2940000/7702059
+Finished entry 2950000/7702059
+Finished entry 2960000/7702059
+Finished entry 2970000/7702059
+Finished entry 2980000/7702059
+Finished entry 2990000/7702059
+Finished entry 3000000/7702059
+Finished entry 3010000/7702059
+Finished entry 3020000/7702059
+Finished entry 3030000/7702059
+Finished entry 3040000/7702059
+Finished entry 3050000/7702059
+Finished entry 3060000/7702059
+Finished entry 3070000/7702059
+Finished entry 3080000/7702059
+Finished entry 3090000/7702059
+Finished entry 3100000/7702059
+Finished entry 3110000/7702059
+Finished entry 3120000/7702059
+Finished entry 3130000/7702059
+Finished entry 3140000/7702059
+Finished entry 3150000/7702059
+Finished entry 3160000/7702059
+Finished entry 3170000/7702059
+Finished entry 3180000/7702059
+Finished entry 3190000/7702059
+Finished entry 3200000/7702059
+Finished entry 3210000/7702059
+Finished entry 3220000/7702059
+Finished entry 3230000/7702059
+Finished entry 3240000/7702059
+Finished entry 3250000/7702059
+Finished entry 3260000/7702059
+Finished entry 3270000/7702059
+Finished entry 3280000/7702059
+Finished entry 3290000/7702059
+Finished entry 3300000/7702059
+Finished entry 3310000/7702059
+Finished entry 3320000/7702059
+Finished entry 3330000/7702059
+Finished entry 3340000/7702059
+Finished entry 3350000/7702059
+Finished entry 3360000/7702059
+Finished entry 3370000/7702059
+Finished entry 3380000/7702059
+Finished entry 3390000/7702059
+Finished entry 3400000/7702059
+Finished entry 3410000/7702059
+Finished entry 3420000/7702059
+Finished entry 3430000/7702059
+Finished entry 3440000/7702059
+Finished entry 3450000/7702059
+Finished entry 3460000/7702059
+Finished entry 3470000/7702059
+Finished entry 3480000/7702059
+Finished entry 3490000/7702059
+Finished entry 3500000/7702059
+Finished entry 3510000/7702059
+Finished entry 3520000/7702059
+Finished entry 3530000/7702059
+Finished entry 3540000/7702059
+Finished entry 3550000/7702059
+Finished entry 3560000/7702059
+Finished entry 3570000/7702059
+Finished entry 3580000/7702059
+Finished entry 3590000/7702059
+Finished entry 3600000/7702059
+Finished entry 3610000/7702059
+Finished entry 3620000/7702059
+Finished entry 3630000/7702059
+Finished entry 3640000/7702059
+Finished entry 3650000/7702059
+Finished entry 3660000/7702059
+Finished entry 3670000/7702059
+Finished entry 3680000/7702059
+Finished entry 3690000/7702059
+Finished entry 3700000/7702059
+Finished entry 3710000/7702059
+Finished entry 3720000/7702059
+Finished entry 3730000/7702059
+Finished entry 3740000/7702059
+Finished entry 3750000/7702059
+Finished entry 3760000/7702059
+Finished entry 3770000/7702059
+Finished entry 3780000/7702059
+Finished entry 3790000/7702059
+Finished entry 3800000/7702059
+Finished entry 3810000/7702059
+Finished entry 3820000/7702059
+Finished entry 3830000/7702059
+Finished entry 3840000/7702059
+Finished entry 3850000/7702059
+Finished entry 3860000/7702059
+Finished entry 3870000/7702059
+Finished entry 3880000/7702059
+Finished entry 3890000/7702059
+Finished entry 3900000/7702059
+Finished entry 3910000/7702059
+Finished entry 3920000/7702059
+Finished entry 3930000/7702059
+Finished entry 3940000/7702059
+Finished entry 3950000/7702059
+Finished entry 3960000/7702059
+Finished entry 3970000/7702059
+Finished entry 3980000/7702059
+Finished entry 3990000/7702059
+Finished entry 4000000/7702059
+Finished entry 4010000/7702059
+Finished entry 4020000/7702059
+Finished entry 4030000/7702059
+Finished entry 4040000/7702059
+Finished entry 4050000/7702059
+Finished entry 4060000/7702059
+Finished entry 4070000/7702059
+Finished entry 4080000/7702059
+Finished entry 4090000/7702059
+Finished entry 4100000/7702059
+Finished entry 4110000/7702059
+Finished entry 4120000/7702059
+Finished entry 4130000/7702059
+Finished entry 4140000/7702059
+Finished entry 4150000/7702059
+Finished entry 4160000/7702059
+Finished entry 4170000/7702059
+Finished entry 4180000/7702059
+Finished entry 4190000/7702059
+Finished entry 4200000/7702059
+Finished entry 4210000/7702059
+Finished entry 4220000/7702059
+Finished entry 4230000/7702059
+Finished entry 4240000/7702059
+Finished entry 4250000/7702059
+Finished entry 4260000/7702059
+Finished entry 4270000/7702059
+Finished entry 4280000/7702059
+Finished entry 4290000/7702059
+Finished entry 4300000/7702059
+Finished entry 4310000/7702059
+Finished entry 4320000/7702059
+Finished entry 4330000/7702059
+Finished entry 4340000/7702059
+Finished entry 4350000/7702059
+Finished entry 4360000/7702059
+Finished entry 4370000/7702059
+Finished entry 4380000/7702059
+Finished entry 4390000/7702059
+Finished entry 4400000/7702059
+Finished entry 4410000/7702059
+Finished entry 4420000/7702059
+Finished entry 4430000/7702059
+Finished entry 4440000/7702059
+Finished entry 4450000/7702059
+Finished entry 4460000/7702059
+Finished entry 4470000/7702059
+Finished entry 4480000/7702059
+Finished entry 4490000/7702059
+Finished entry 4500000/7702059
+Finished entry 4510000/7702059
+Finished entry 4520000/7702059
+Finished entry 4530000/7702059
+Finished entry 4540000/7702059
+Finished entry 4550000/7702059
+Finished entry 4560000/7702059
+Finished entry 4570000/7702059
+Finished entry 4580000/7702059
+Finished entry 4590000/7702059
+Finished entry 4600000/7702059
+Finished entry 4610000/7702059
+Finished entry 4620000/7702059
+Finished entry 4630000/7702059
+Finished entry 4640000/7702059
+Finished entry 4650000/7702059
+Finished entry 4660000/7702059
+Finished entry 4670000/7702059
+Finished entry 4680000/7702059
+Finished entry 4690000/7702059
+Finished entry 4700000/7702059
+Finished entry 4710000/7702059
+Finished entry 4720000/7702059
+Finished entry 4730000/7702059
+Finished entry 4740000/7702059
+Finished entry 4750000/7702059
+Finished entry 4760000/7702059
+Finished entry 4770000/7702059
+Finished entry 4780000/7702059
+Finished entry 4790000/7702059
+Finished entry 4800000/7702059
+Finished entry 4810000/7702059
+Finished entry 4820000/7702059
+Finished entry 4830000/7702059
+Finished entry 4840000/7702059
+Finished entry 4850000/7702059
+Finished entry 4860000/7702059
+Finished entry 4870000/7702059
+Finished entry 4880000/7702059
+Finished entry 4890000/7702059
+Finished entry 4900000/7702059
+Finished entry 4910000/7702059
+Finished entry 4920000/7702059
+Finished entry 4930000/7702059
+Finished entry 4940000/7702059
+Finished entry 4950000/7702059
+Finished entry 4960000/7702059
+Finished entry 4970000/7702059
+Finished entry 4980000/7702059
+Finished entry 4990000/7702059
+Finished entry 5000000/7702059
+Finished entry 5010000/7702059
+Finished entry 5020000/7702059
+Finished entry 5030000/7702059
+Finished entry 5040000/7702059
+Finished entry 5050000/7702059
+Finished entry 5060000/7702059
+Finished entry 5070000/7702059
+Finished entry 5080000/7702059
+Finished entry 5090000/7702059
+Finished entry 5100000/7702059
+Finished entry 5110000/7702059
+Finished entry 5120000/7702059
+Finished entry 5130000/7702059
+Finished entry 5140000/7702059
+Finished entry 5150000/7702059
+Finished entry 5160000/7702059
+Finished entry 5170000/7702059
+Finished entry 5180000/7702059
+Finished entry 5190000/7702059
+Finished entry 5200000/7702059
+Finished entry 5210000/7702059
+Finished entry 5220000/7702059
+Finished entry 5230000/7702059
+Finished entry 5240000/7702059
+Finished entry 5250000/7702059
+Finished entry 5260000/7702059
+Finished entry 5270000/7702059
+Finished entry 5280000/7702059
+Finished entry 5290000/7702059
+Finished entry 5300000/7702059
+Finished entry 5310000/7702059
+Finished entry 5320000/7702059
+Finished entry 5330000/7702059
+Finished entry 5340000/7702059
+Finished entry 5350000/7702059
+Finished entry 5360000/7702059
+Finished entry 5370000/7702059
+Finished entry 5380000/7702059
+Finished entry 5390000/7702059
+Finished entry 5400000/7702059
+Finished entry 5410000/7702059
+Finished entry 5420000/7702059
+Finished entry 5430000/7702059
+Finished entry 5440000/7702059
+Finished entry 5450000/7702059
+Finished entry 5460000/7702059
+Finished entry 5470000/7702059
+Finished entry 5480000/7702059
+Finished entry 5490000/7702059
+Finished entry 5500000/7702059
+Finished entry 5510000/7702059
+Finished entry 5520000/7702059
+Finished entry 5530000/7702059
+Finished entry 5540000/7702059
+Finished entry 5550000/7702059
+Finished entry 5560000/7702059
+Finished entry 5570000/7702059
+Finished entry 5580000/7702059
+Finished entry 5590000/7702059
+Finished entry 5600000/7702059
+Finished entry 5610000/7702059
+Finished entry 5620000/7702059
+Finished entry 5630000/7702059
+Finished entry 5640000/7702059
+Finished entry 5650000/7702059
+Finished entry 5660000/7702059
+Finished entry 5670000/7702059
+Finished entry 5680000/7702059
+Finished entry 5690000/7702059
+Finished entry 5700000/7702059
+Finished entry 5710000/7702059
+Finished entry 5720000/7702059
+Finished entry 5730000/7702059
+Finished entry 5740000/7702059
+Finished entry 5750000/7702059
+Finished entry 5760000/7702059
+Finished entry 5770000/7702059
+Finished entry 5780000/7702059
+Finished entry 5790000/7702059
+Finished entry 5800000/7702059
+Finished entry 5810000/7702059
+Finished entry 5820000/7702059
+Finished entry 5830000/7702059
+Finished entry 5840000/7702059
+Finished entry 5850000/7702059
+Finished entry 5860000/7702059
+Finished entry 5870000/7702059
+Finished entry 5880000/7702059
+Finished entry 5890000/7702059
+Finished entry 5900000/7702059
+Finished entry 5910000/7702059
+Finished entry 5920000/7702059
+Finished entry 5930000/7702059
+Finished entry 5940000/7702059
+Finished entry 5950000/7702059
+Finished entry 5960000/7702059
+Finished entry 5970000/7702059
+Finished entry 5980000/7702059
+Finished entry 5990000/7702059
+Finished entry 6000000/7702059
+Finished entry 6010000/7702059
+Finished entry 6020000/7702059
+Finished entry 6030000/7702059
+Finished entry 6040000/7702059
+Finished entry 6050000/7702059
+Finished entry 6060000/7702059
+Finished entry 6070000/7702059
+Finished entry 6080000/7702059
+Finished entry 6090000/7702059
+Finished entry 6100000/7702059
+Finished entry 6110000/7702059
+Finished entry 6120000/7702059
+Finished entry 6130000/7702059
+Finished entry 6140000/7702059
+Finished entry 6150000/7702059
+Finished entry 6160000/7702059
+Finished entry 6170000/7702059
+Finished entry 6180000/7702059
+Finished entry 6190000/7702059
+Finished entry 6200000/7702059
+Finished entry 6210000/7702059
+Finished entry 6220000/7702059
+Finished entry 6230000/7702059
+Finished entry 6240000/7702059
+Finished entry 6250000/7702059
+Finished entry 6260000/7702059
+Finished entry 6270000/7702059
+Finished entry 6280000/7702059
+Finished entry 6290000/7702059
+Finished entry 6300000/7702059
+Finished entry 6310000/7702059
+Finished entry 6320000/7702059
+Finished entry 6330000/7702059
+Finished entry 6340000/7702059
+Finished entry 6350000/7702059
+Finished entry 6360000/7702059
+Finished entry 6370000/7702059
+Finished entry 6380000/7702059
+Finished entry 6390000/7702059
+Finished entry 6400000/7702059
+Finished entry 6410000/7702059
+Finished entry 6420000/7702059
+Finished entry 6430000/7702059
+Finished entry 6440000/7702059
+Finished entry 6450000/7702059
+Finished entry 6460000/7702059
+Finished entry 6470000/7702059
+Finished entry 6480000/7702059
+Finished entry 6490000/7702059
+Finished entry 6500000/7702059
+Finished entry 6510000/7702059
+Finished entry 6520000/7702059
+Finished entry 6530000/7702059
+Finished entry 6540000/7702059
+Finished entry 6550000/7702059
+Finished entry 6560000/7702059
+Finished entry 6570000/7702059
+Finished entry 6580000/7702059
+Finished entry 6590000/7702059
+Finished entry 6600000/7702059
+Finished entry 6610000/7702059
+Finished entry 6620000/7702059
+Finished entry 6630000/7702059
+Finished entry 6640000/7702059
+Finished entry 6650000/7702059
+Finished entry 6660000/7702059
+Finished entry 6670000/7702059
+Finished entry 6680000/7702059
+Finished entry 6690000/7702059
+Finished entry 6700000/7702059
+Finished entry 6710000/7702059
+Finished entry 6720000/7702059
+Finished entry 6730000/7702059
+Finished entry 6740000/7702059
+Finished entry 6750000/7702059
+Finished entry 6760000/7702059
+Finished entry 6770000/7702059
+Finished entry 6780000/7702059
+Finished entry 6790000/7702059
+Finished entry 6800000/7702059
+Finished entry 6810000/7702059
+Finished entry 6820000/7702059
+Finished entry 6830000/7702059
+Finished entry 6840000/7702059
+Finished entry 6850000/7702059
+Finished entry 6860000/7702059
+Finished entry 6870000/7702059
+Finished entry 6880000/7702059
+Finished entry 6890000/7702059
+Finished entry 6900000/7702059
+Finished entry 6910000/7702059
+Finished entry 6920000/7702059
+Finished entry 6930000/7702059
+Finished entry 6940000/7702059
+Finished entry 6950000/7702059
+Finished entry 6960000/7702059
+Finished entry 6970000/7702059
+Finished entry 6980000/7702059
+Finished entry 6990000/7702059
+Finished entry 7000000/7702059
+Finished entry 7010000/7702059
+Finished entry 7020000/7702059
+Finished entry 7030000/7702059
+Finished entry 7040000/7702059
+Finished entry 7050000/7702059
+Finished entry 7060000/7702059
+Finished entry 7070000/7702059
+Finished entry 7080000/7702059
+Finished entry 7090000/7702059
+Finished entry 7100000/7702059
+Finished entry 7110000/7702059
+Finished entry 7120000/7702059
+Finished entry 7130000/7702059
+Finished entry 7140000/7702059
+Finished entry 7150000/7702059
+Finished entry 7160000/7702059
+Finished entry 7170000/7702059
+Finished entry 7180000/7702059
+Finished entry 7190000/7702059
+Finished entry 7200000/7702059
+Finished entry 7210000/7702059
+Finished entry 7220000/7702059
+Finished entry 7230000/7702059
+Finished entry 7240000/7702059
+Finished entry 7250000/7702059
+Finished entry 7260000/7702059
+Finished entry 7270000/7702059
+Finished entry 7280000/7702059
+Finished entry 7290000/7702059
+Finished entry 7300000/7702059
+Finished entry 7310000/7702059
+Finished entry 7320000/7702059
+Finished entry 7330000/7702059
+Finished entry 7340000/7702059
+Finished entry 7350000/7702059
+Finished entry 7360000/7702059
+Finished entry 7370000/7702059
+Finished entry 7380000/7702059
+Finished entry 7390000/7702059
+Finished entry 7400000/7702059
+Finished entry 7410000/7702059
+Finished entry 7420000/7702059
+Finished entry 7430000/7702059
+Finished entry 7440000/7702059
+Finished entry 7450000/7702059
+Finished entry 7460000/7702059
+Finished entry 7470000/7702059
+Finished entry 7480000/7702059
+Finished entry 7490000/7702059
+Finished entry 7500000/7702059
+Finished entry 7510000/7702059
+Finished entry 7520000/7702059
+Finished entry 7530000/7702059
+Finished entry 7540000/7702059
+Finished entry 7550000/7702059
+Finished entry 7560000/7702059
+Finished entry 7570000/7702059
+Finished entry 7580000/7702059
+Finished entry 7590000/7702059
+Finished entry 7600000/7702059
+Finished entry 7610000/7702059
+Finished entry 7620000/7702059
+Finished entry 7630000/7702059
+Finished entry 7640000/7702059
+Finished entry 7650000/7702059
+Finished entry 7660000/7702059
+Finished entry 7670000/7702059
+Finished entry 7680000/7702059
+Finished entry 7690000/7702059
+Finished entry 7700000/7702059

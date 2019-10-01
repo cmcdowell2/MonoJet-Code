@@ -1,0 +1,28 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Z100_2.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/Z100_2/$(Process)_Z100_2.out
+ error                = ../.status/Z100_2/$(Process)_Z100_2.err
+ Log                  = ../.status/Z100_2/$(Process)_Z100_2.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-100To200_13TeV-madgraph/crab_job_ZJetsToNuNu_HT100-200/190512_100845/0002/ postZ100to200_2_0.root -1 10000 2000-2065
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-100To200_13TeV-madgraph/crab_job_ZJetsToNuNu_HT100-200/190512_100845/0002/ postZ100to200_2_1.root -1 10000 2066-2131
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-100To200_13TeV-madgraph/crab_job_ZJetsToNuNu_HT100-200/190512_100845/0002/ postZ100to200_2_2.root -1 10000 2132-2197
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-100To200_13TeV-madgraph/crab_job_ZJetsToNuNu_HT100-200/190512_100845/0002/ postZ100to200_2_3.root -1 10000 2198-2263
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-100To200_13TeV-madgraph/crab_job_ZJetsToNuNu_HT100-200/190512_100845/0002/ postZ100to200_2_4.root -1 10000 2264-2329
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-100To200_13TeV-madgraph/crab_job_ZJetsToNuNu_HT100-200/190512_100845/0002/ postZ100to200_2_5.root -1 10000 2330-2400
+Queue

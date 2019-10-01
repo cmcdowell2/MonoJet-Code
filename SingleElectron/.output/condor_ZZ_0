@@ -1,0 +1,24 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_ZZ_0.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/ZZ_0/$(Process)_ZZ_0.out
+ error                = ../.status/ZZ_0/$(Process)_ZZ_0.err
+ Log                  = ../.status/ZZ_0/$(Process)_ZZ_0.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZZ_TuneCP5_13TeV-pythia8/crab_job_ZZ/190518_225121/0000/ postZZ_0_0.root -1 10000 1-70
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZZ_TuneCP5_13TeV-pythia8/crab_job_ZZ/190518_225121/0000/ postZZ_0_1.root -1 10000 71-140
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZZ_TuneCP5_13TeV-pythia8/crab_job_ZZ/190518_225121/0000/ postZZ_0_2.root -1 10000 141-210
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZZ_TuneCP5_13TeV-pythia8/crab_job_ZZ/190518_225121/0000/ postZZ_0_3.root -1 10000 211-283
+Queue

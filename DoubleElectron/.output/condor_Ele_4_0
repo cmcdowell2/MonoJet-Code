@@ -1,0 +1,36 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Ele_4_0.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/Ele_4_0/$(Process)_Ele_4_0.out
+ error                = ../.status/Ele_4_0/$(Process)_Ele_4_0.err
+ Log                  = ../.status/Ele_4_0/$(Process)_Ele_4_0.log
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_0.root -1 10000 1-8/11-31/33-67
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_1.root -1 10000 68-89/91-117/119-120/122-122/126-137
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_2.root -1 10000 138-163/168-205
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_3.root -1 10000 206-231/233-270
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_4.root -1 10000 271-295/297-335
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_5.root -1 10000 336-399
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_6.root -1 10000 400-422/426-428/430-435/437-437/439-439/441-443/446-452/454-455/458-463/465-465/469-469/471-474/476-479/482-482/484-484
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_7.root -1 10000 485-485/488-491/493-495/497-499/501-506/527-529/555-555/559-559/561-562/565-572/574-580/583-583/629-629/644-644/648-649/652-652/654-655/657-666/678-678/680-680/707-709/722-723
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_8.root -1 10000 724-727/730-730/732-733/749-749/754-754/758-758/768-773/775-778/780-780/783-785/787-789/791-791/796-802/804-823/825-827/830-830/832-833/835-837
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Cv2/190529_100921/0000/ postDoubleEle_4_0_9.root -1 10000 838-868/873-873/879-881/885-885/890-902/904-906/909-909/911-916/922-924/927-929/935-936/943-944/994-994
+Queue

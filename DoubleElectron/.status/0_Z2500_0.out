@@ -1,0 +1,67 @@
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_1.root
+name: MC_ZJetsToNuNu_HT2500-Inf_1.root
+filenumber: 0
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_1.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_2.root
+name: MC_ZJetsToNuNu_HT2500-Inf_2.root
+filenumber: 1
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_2.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_3.root
+name: MC_ZJetsToNuNu_HT2500-Inf_3.root
+filenumber: 2
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_3.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_4.root
+name: MC_ZJetsToNuNu_HT2500-Inf_4.root
+filenumber: 3
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/MC_ZJetsToNuNu_HT2500-Inf_4.root
+
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/.
+name: .
+filenumber: 4
+file path found: /hdfs/store/user/varuns/NTuples/MC/MC2018_RunIIAutumn18_102X/ZJets/ZJetsToNuNu_HT2500-Inf/..
+name: ..
+filenumber: 5
+4 files added.
+Initializing chain.
+Coming in: 
+nentries:359639
+Running over 359639 events.
+Finished entry 0/359638
+Finished entry 10000/359638
+Finished entry 20000/359638
+Finished entry 30000/359638
+Finished entry 40000/359638
+Finished entry 50000/359638
+Finished entry 60000/359638
+Finished entry 70000/359638
+Finished entry 80000/359638
+Finished entry 90000/359638
+Finished entry 100000/359638
+Finished entry 110000/359638
+Finished entry 120000/359638
+Finished entry 130000/359638
+Finished entry 140000/359638
+Finished entry 150000/359638
+Finished entry 160000/359638
+Finished entry 170000/359638
+Finished entry 180000/359638
+Finished entry 190000/359638
+Finished entry 200000/359638
+Finished entry 210000/359638
+Finished entry 220000/359638
+Finished entry 230000/359638
+Finished entry 240000/359638
+Finished entry 250000/359638
+Finished entry 260000/359638
+Finished entry 270000/359638
+Finished entry 280000/359638
+Finished entry 290000/359638
+Finished entry 300000/359638
+Finished entry 310000/359638
+Finished entry 320000/359638
+Finished entry 330000/359638
+Finished entry 340000/359638
+Finished entry 350000/359638

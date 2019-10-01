@@ -1,0 +1,32 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_QCD200_5.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/QCD200_5/$(Process)_QCD200_5.out
+ error                = ../.status/QCD200_5/$(Process)_QCD200_5.err
+ Log                  = ../.status/QCD200_5/$(Process)_QCD200_5.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_0.root -1 10000 5000-5061
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_1.root -1 10000 5062-5123
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_2.root -1 10000 5124-5185
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_3.root -1 10000 5186-5247
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_4.root -1 10000 5248-5309
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_5.root -1 10000 5310-5371
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_6.root -1 10000 5372-5433
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8/crab_job_QCD_HT200-300/190518_225442/0005/ postQCD200to300_5_7.root -1 10000 5434-5500
+Queue

@@ -1,0 +1,42 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Ele_1_6.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/Ele_1_6/$(Process)_Ele_1_6.out
+ error                = ../.status/Ele_1_6/$(Process)_Ele_1_6.err
+ Log                  = ../.status/Ele_1_6/$(Process)_Ele_1_6.log
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_0.root -1 10000 6000-6001/6003-6004/6006-6011/6013-6031/6033-6034/6038-6038/6041-6041/6043-6052/6056-6067/6069-6069/6071-6071/6074-6075/6077-6077
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_1.root -1 10000 6080-6082/6085-6085/6088-6088/6091-6091/6093-6095/6099-6106/6109-6111/6113-6117/6119-6125/6127-6138/6140-6153/6155-6155/6157-6157
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_2.root -1 10000 6158-6164/6166-6172/6174-6174/6176-6179/6181-6195/6197-6203/6205-6223
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_3.root -1 10000 6224-6259/6262-6285
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_4.root -1 10000 6286-6318/6338-6338/6365-6365/6381-6381/6384-6389/6391-6393/6396-6398/6400-6400/6403-6406/6408-6414
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_5.root -1 10000 6415-6417/6419-6420/6422-6426/6429-6478
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_6.root -1 10000 6479-6538
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_7.root -1 10000 6539-6565/6569-6570/6572-6572/6574-6585/6588-6605
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_8.root -1 10000 6606-6652/6654-6656/6658-6659/6661-6661/6663-6669
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_9.root -1 10000 6671-6672/6674-6681/6684-6701/6704-6705/6710-6715/6719-6725/6728-6729/6778-6778/6792-6792/6796-6797/6800-6800/6803-6812
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_10.root -1 10000 6814-6814/6816-6817/6819-6821/6824-6829/6831-6839/6841-6879
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_11.root -1 10000 6880-6939
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018Bv2/190529_100508/0006/ postSingleEle_1_6_12.root -1 10000 6940-6999
+Queue

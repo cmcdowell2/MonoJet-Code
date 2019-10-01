@@ -1,0 +1,48 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Z400_0.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../RunABCD_SF_ISO.root,../RunABCD_SF_ID.root
+ output               = ../.status/Z400_0/$(Process)_Z400_0.out
+ error                = ../.status/Z400_0/$(Process)_Z400_0.err
+ Log                  = ../.status/Z400_0/$(Process)_Z400_0.log
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_0.root -1 10000 1-60
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_1.root -1 10000 61-120
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_2.root -1 10000 121-180
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_3.root -1 10000 181-240
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_4.root -1 10000 241-300
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_5.root -1 10000 301-360
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_6.root -1 10000 361-420
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_7.root -1 10000 421-480
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_8.root -1 10000 481-540
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_9.root -1 10000 541-600
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_10.root -1 10000 601-660
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_11.root -1 10000 661-720
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_12.root -1 10000 721-780
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_13.root -1 10000 781-840
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_14.root -1 10000 841-900
+Queue
+Arguments = /hdfs/store/user/varuns/MC2018_Autumn18_May2019/ZJetsToNuNu_HT-400To600_13TeV-madgraph/crab_job_ZJetsToNuNu_HT400-600/190512_101112/0000/ postZ400to600_0_15.root -1 10000 901-967
+Queue

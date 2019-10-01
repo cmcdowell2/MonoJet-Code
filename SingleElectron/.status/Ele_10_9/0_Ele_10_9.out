@@ -1,0 +1,30 @@
+file path found: /hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/Data_EGamma2018Dv2_2_9107.root
+name: Data_EGamma2018Dv2_2_9107.root
+filenumber: 0
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/Data_EGamma2018Dv2_2_9107.root
+
+file path found: /hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/Data_EGamma2018Dv2_2_9108.root
+name: Data_EGamma2018Dv2_2_9108.root
+filenumber: 1
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/Data_EGamma2018Dv2_2_9108.root
+
+file path found: /hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/Data_EGamma2018Dv2_2_9111.root
+name: Data_EGamma2018Dv2_2_9111.root
+filenumber: 2
+Adding FullPathInputFile to chain:/hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/Data_EGamma2018Dv2_2_9111.root
+
+file path found: /hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/.
+name: .
+filenumber: 3
+file path found: /hdfs/store/user/varuns/Run2018D_Prompt/EGamma/crab_job_EGamma2018Dv2_2/190526_233615/0009/..
+name: ..
+filenumber: 4
+3 files added.
+Initializing chain.
+Coming in: 
+nentries:34654
+Running over 34654 events.
+Finished entry 0/34653
+Finished entry 10000/34653
+Finished entry 20000/34653
+Finished entry 30000/34653

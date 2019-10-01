@@ -1,0 +1,20 @@
+x509userproxy = /tmp/x509up_u23267
+universe = vanilla
+ Executable = Job_Ele_0_3.sh
+ Notification         = never
+ WhenToTransferOutput = On_Exit
+ ShouldTransferFiles  = yes
+ Requirements = (TARGET.UidDomain == "hep.wisc.edu" && TARGET.HAS_CMS_HDFS)
+ on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
+ +IsFastQueueJob      = True
+ getenv = true
+ request_memory       = 1992
+ request_disk         = 2048000
+ Transfer_Input_Files = analyze,../kfactors.root,../PU_Central.root,../egammaEffi.txt_EGM2D_updatedAll.root,../2018_ElectronTight.root,../2018_ElectronLoose.root
+ output               = ../.status/Ele_0_3/$(Process)_Ele_0_3.out
+ error                = ../.status/Ele_0_3/$(Process)_Ele_0_3.err
+ Log                  = ../.status/Ele_0_3/$(Process)_Ele_0_3.log
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018B/190528_233825/0003/ postDoubleEle_0_3_0.root -1 10000 3045-3046/3068-3068/3116-3116/3122-3122/3127-3127/3283-3286/3288-3288/3290-3290/3311-3311/3479-3479/3507-3508/3523-3525/3537-3537/3541-3541/3544-3544/3549-3549/3551-3551/3553-3553/3556-3558/3560-3560/3580-3580/3584-3584/3588-3589/3595-3595/3602-3602/3604-3604/3804-3804/3809-3812/3821-3821/3838-3838
+Queue
+Arguments = /hdfs/store/user/varuns/Run2018_17Sep2018_May2019/EGamma/crab_job_EGamma2018B/190528_233825/0003/ postDoubleEle_0_3_1.root -1 10000 3839-3839/3841-3847/3849-3849/3852-3853/3856-3857/3859-3860/3862-3862/3865-3865/3867-3870/3919-3919/3931-3932/3937-3937/3942-3943/3945-3945/3949-3950/3957-3957/3960-3960/3963-3964/3971-3971/3979-3979/3990-3993/3995-3997/3999-3999
+Queue
